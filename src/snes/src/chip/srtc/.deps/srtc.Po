@@ -1,0 +1,476 @@
+src/chip/srtc/srtc.o: src/chip/srtc/srtc.cpp src/lib/../base.hpp \
+ src/lib/libco/libco.h src/lib/nall/algorithm.hpp src/lib/nall/any.hpp \
+ /usr/include/c++/4.6/typeinfo /usr/include/c++/4.6/exception \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++config.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/os_defines.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/bits/predefs.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/cpu_defines.h \
+ src/lib/nall/static.hpp src/lib/nall/traits.hpp src/lib/nall/array.hpp \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.6/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/string.h src/lib/nall/bit.hpp \
+ src/lib/nall/detect.hpp src/lib/nall/dl.hpp src/lib/nall/stdint.hpp \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.6/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ src/lib/nall/utility.hpp /usr/include/dlfcn.h \
+ /usr/include/arm-linux-gnueabihf/bits/dlfcn.h src/lib/nall/endian.hpp \
+ src/lib/nall/file.hpp /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.6/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h /usr/include/unistd.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
+ src/lib/nall/utf8.hpp src/lib/nall/function.hpp /usr/include/assert.h \
+ src/lib/nall/function.hpp src/lib/nall/moduloarray.hpp \
+ src/lib/nall/serializer.hpp src/lib/nall/platform.hpp \
+ /usr/include/c++/4.6/limits \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h /usr/include/math.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_val.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_valf.h \
+ /usr/include/arm-linux-gnueabihf/bits/huge_vall.h \
+ /usr/include/arm-linux-gnueabihf/bits/inf.h \
+ /usr/include/arm-linux-gnueabihf/bits/nan.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathdef.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h /usr/include/pwd.h \
+ /usr/include/arm-linux-gnueabihf/sys/stat.h \
+ /usr/include/arm-linux-gnueabihf/bits/stat.h \
+ src/lib/nall/priorityqueue.hpp src/lib/nall/property.hpp \
+ src/lib/nall/string.hpp src/lib/nall/string/base.hpp \
+ src/lib/nall/vector.hpp /usr/include/c++/4.6/new \
+ src/lib/nall/string/core.hpp src/lib/nall/string/cast.hpp \
+ src/lib/nall/string/compare.hpp src/lib/nall/string/convert.hpp \
+ src/lib/nall/string/filename.hpp src/lib/nall/string/match.hpp \
+ src/lib/nall/string/math.hpp src/lib/nall/string/strl.hpp \
+ src/lib/nall/string/trim.hpp src/lib/nall/string/replace.hpp \
+ src/lib/nall/string/split.hpp src/lib/nall/string/utility.hpp \
+ src/lib/../interface.hpp src/lib/../cheat/cheat.hpp \
+ src/lib/../memory/memory.hpp src/lib/../memory/smemory/smemory.hpp \
+ src/lib/../ppu/ppu.hpp src/lib/../ppu/memory/memory.hpp \
+ src/lib/../ppu/mmio/mmio.hpp src/lib/../ppu/render/render.hpp \
+ src/lib/../cpu/cpu.hpp src/lib/../cpu/core/core.hpp \
+ src/lib/../cpu/core/registers.hpp src/lib/../cpu/core/memory.hpp \
+ src/lib/../cpu/core/disassembler/disassembler.hpp \
+ src/lib/../cpu/scpu/scpu.hpp src/lib/../cpu/scpu/dma/dma.hpp \
+ src/lib/../cpu/scpu/memory/memory.hpp src/lib/../cpu/scpu/mmio/mmio.hpp \
+ src/lib/../cpu/scpu/timing/timing.hpp src/lib/../smp/smp.hpp \
+ src/lib/../smp/core/core.hpp src/lib/../smp/core/registers.hpp \
+ src/lib/../smp/core/memory.hpp \
+ src/lib/../smp/core/disassembler/disassembler.hpp \
+ src/lib/../smp/ssmp/ssmp.hpp src/lib/../smp/ssmp/memory/memory.hpp \
+ src/lib/../smp/ssmp/timing/timing.hpp src/lib/../dsp/dsp.hpp \
+ src/lib/../dsp/sdsp/sdsp.hpp src/lib/../system/system.hpp \
+ src/lib/../system/config/config.hpp \
+ src/lib/../system/debugger/debugger.hpp \
+ src/lib/../system/interface/interface.hpp \
+ src/lib/../system/scheduler/scheduler.hpp \
+ src/lib/../system/video/video.hpp src/lib/../system/audio/audio.hpp \
+ src/lib/../system/input/input.hpp src/lib/../chip/chip.hpp \
+ src/lib/../chip/supergameboy/supergameboy.hpp \
+ src/lib/../chip/superfx/superfx.hpp src/lib/../chip/superfx/bus/bus.hpp \
+ src/lib/../chip/superfx/core/core.hpp \
+ src/lib/../chip/superfx/core/registers.hpp \
+ src/lib/../chip/superfx/memory/memory.hpp \
+ src/lib/../chip/superfx/mmio/mmio.hpp \
+ src/lib/../chip/superfx/timing/timing.hpp \
+ src/lib/../chip/superfx/disasm/disasm.hpp src/lib/../chip/sa1/sa1.hpp \
+ src/lib/../chip/sa1/bus/bus.hpp src/lib/../chip/sa1/dma/dma.hpp \
+ src/lib/../chip/sa1/memory/memory.hpp src/lib/../chip/sa1/mmio/mmio.hpp \
+ src/lib/../chip/bsx/bsx.hpp src/lib/../chip/srtc/srtc.hpp \
+ src/lib/../chip/sdd1/sdd1.hpp src/lib/../chip/sdd1/sdd1emu.hpp \
+ src/lib/../chip/spc7110/spc7110.hpp src/lib/../chip/spc7110/decomp.hpp \
+ src/lib/../chip/cx4/cx4.hpp src/lib/../chip/dsp1/dsp1.hpp \
+ src/lib/../chip/dsp1/dsp1emu.hpp src/lib/../chip/dsp2/dsp2.hpp \
+ src/lib/../chip/dsp3/dsp3.hpp src/lib/../chip/dsp4/dsp4.hpp \
+ src/lib/../chip/obc1/obc1.hpp src/lib/../chip/st010/st010.hpp \
+ src/lib/../chip/st011/st011.hpp src/lib/../chip/st018/st018.hpp \
+ src/lib/../chip/21fx/21fx.hpp src/lib/../cartridge/cartridge.hpp \
+ src/lib/../memory/memory-inline.hpp src/lib/../ppu/ppu-inline.hpp \
+ src/lib/../cheat/cheat-inline.hpp src/chip/srtc/serialization.cpp
+
+src/lib/../base.hpp:
+
+src/lib/libco/libco.h:
+
+src/lib/nall/algorithm.hpp:
+
+src/lib/nall/any.hpp:
+
+/usr/include/c++/4.6/typeinfo:
+
+/usr/include/c++/4.6/exception:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++config.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/bits/predefs.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/cpu_defines.h:
+
+src/lib/nall/static.hpp:
+
+src/lib/nall/traits.hpp:
+
+src/lib/nall/array.hpp:
+
+/usr/include/stdlib.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.6/include/stddef.h:
+
+/usr/include/arm-linux-gnueabihf/bits/waitflags.h:
+
+/usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/byteswap.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/arm-linux-gnueabihf/sys/types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/arm-linux-gnueabihf/sys/select.h:
+
+/usr/include/arm-linux-gnueabihf/bits/select.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigset.h:
+
+/usr/include/arm-linux-gnueabihf/bits/time.h:
+
+/usr/include/arm-linux-gnueabihf/sys/sysmacros.h:
+
+/usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/string.h:
+
+src/lib/nall/bit.hpp:
+
+src/lib/nall/detect.hpp:
+
+src/lib/nall/dl.hpp:
+
+src/lib/nall/stdint.hpp:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.6/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wchar.h:
+
+src/lib/nall/utility.hpp:
+
+/usr/include/dlfcn.h:
+
+/usr/include/arm-linux-gnueabihf/bits/dlfcn.h:
+
+src/lib/nall/endian.hpp:
+
+src/lib/nall/file.hpp:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.6/include/stdarg.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
+
+/usr/include/unistd.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix_opt.h:
+
+/usr/include/arm-linux-gnueabihf/bits/environments.h:
+
+/usr/include/arm-linux-gnueabihf/bits/confname.h:
+
+/usr/include/getopt.h:
+
+src/lib/nall/utf8.hpp:
+
+src/lib/nall/function.hpp:
+
+/usr/include/assert.h:
+
+src/lib/nall/function.hpp:
+
+src/lib/nall/moduloarray.hpp:
+
+src/lib/nall/serializer.hpp:
+
+src/lib/nall/platform.hpp:
+
+/usr/include/c++/4.6/limits:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.6/include-fixed/limits.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.6/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix1_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix2_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/xopen_lim.h:
+
+/usr/include/math.h:
+
+/usr/include/arm-linux-gnueabihf/bits/huge_val.h:
+
+/usr/include/arm-linux-gnueabihf/bits/huge_valf.h:
+
+/usr/include/arm-linux-gnueabihf/bits/huge_vall.h:
+
+/usr/include/arm-linux-gnueabihf/bits/inf.h:
+
+/usr/include/arm-linux-gnueabihf/bits/nan.h:
+
+/usr/include/arm-linux-gnueabihf/bits/mathdef.h:
+
+/usr/include/arm-linux-gnueabihf/bits/mathcalls.h:
+
+/usr/include/arm-linux-gnueabihf/bits/mathinline.h:
+
+/usr/include/pwd.h:
+
+/usr/include/arm-linux-gnueabihf/sys/stat.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stat.h:
+
+src/lib/nall/priorityqueue.hpp:
+
+src/lib/nall/property.hpp:
+
+src/lib/nall/string.hpp:
+
+src/lib/nall/string/base.hpp:
+
+src/lib/nall/vector.hpp:
+
+/usr/include/c++/4.6/new:
+
+src/lib/nall/string/core.hpp:
+
+src/lib/nall/string/cast.hpp:
+
+src/lib/nall/string/compare.hpp:
+
+src/lib/nall/string/convert.hpp:
+
+src/lib/nall/string/filename.hpp:
+
+src/lib/nall/string/match.hpp:
+
+src/lib/nall/string/math.hpp:
+
+src/lib/nall/string/strl.hpp:
+
+src/lib/nall/string/trim.hpp:
+
+src/lib/nall/string/replace.hpp:
+
+src/lib/nall/string/split.hpp:
+
+src/lib/nall/string/utility.hpp:
+
+src/lib/../interface.hpp:
+
+src/lib/../cheat/cheat.hpp:
+
+src/lib/../memory/memory.hpp:
+
+src/lib/../memory/smemory/smemory.hpp:
+
+src/lib/../ppu/ppu.hpp:
+
+src/lib/../ppu/memory/memory.hpp:
+
+src/lib/../ppu/mmio/mmio.hpp:
+
+src/lib/../ppu/render/render.hpp:
+
+src/lib/../cpu/cpu.hpp:
+
+src/lib/../cpu/core/core.hpp:
+
+src/lib/../cpu/core/registers.hpp:
+
+src/lib/../cpu/core/memory.hpp:
+
+src/lib/../cpu/core/disassembler/disassembler.hpp:
+
+src/lib/../cpu/scpu/scpu.hpp:
+
+src/lib/../cpu/scpu/dma/dma.hpp:
+
+src/lib/../cpu/scpu/memory/memory.hpp:
+
+src/lib/../cpu/scpu/mmio/mmio.hpp:
+
+src/lib/../cpu/scpu/timing/timing.hpp:
+
+src/lib/../smp/smp.hpp:
+
+src/lib/../smp/core/core.hpp:
+
+src/lib/../smp/core/registers.hpp:
+
+src/lib/../smp/core/memory.hpp:
+
+src/lib/../smp/core/disassembler/disassembler.hpp:
+
+src/lib/../smp/ssmp/ssmp.hpp:
+
+src/lib/../smp/ssmp/memory/memory.hpp:
+
+src/lib/../smp/ssmp/timing/timing.hpp:
+
+src/lib/../dsp/dsp.hpp:
+
+src/lib/../dsp/sdsp/sdsp.hpp:
+
+src/lib/../system/system.hpp:
+
+src/lib/../system/config/config.hpp:
+
+src/lib/../system/debugger/debugger.hpp:
+
+src/lib/../system/interface/interface.hpp:
+
+src/lib/../system/scheduler/scheduler.hpp:
+
+src/lib/../system/video/video.hpp:
+
+src/lib/../system/audio/audio.hpp:
+
+src/lib/../system/input/input.hpp:
+
+src/lib/../chip/chip.hpp:
+
+src/lib/../chip/supergameboy/supergameboy.hpp:
+
+src/lib/../chip/superfx/superfx.hpp:
+
+src/lib/../chip/superfx/bus/bus.hpp:
+
+src/lib/../chip/superfx/core/core.hpp:
+
+src/lib/../chip/superfx/core/registers.hpp:
+
+src/lib/../chip/superfx/memory/memory.hpp:
+
+src/lib/../chip/superfx/mmio/mmio.hpp:
+
+src/lib/../chip/superfx/timing/timing.hpp:
+
+src/lib/../chip/superfx/disasm/disasm.hpp:
+
+src/lib/../chip/sa1/sa1.hpp:
+
+src/lib/../chip/sa1/bus/bus.hpp:
+
+src/lib/../chip/sa1/dma/dma.hpp:
+
+src/lib/../chip/sa1/memory/memory.hpp:
+
+src/lib/../chip/sa1/mmio/mmio.hpp:
+
+src/lib/../chip/bsx/bsx.hpp:
+
+src/lib/../chip/srtc/srtc.hpp:
+
+src/lib/../chip/sdd1/sdd1.hpp:
+
+src/lib/../chip/sdd1/sdd1emu.hpp:
+
+src/lib/../chip/spc7110/spc7110.hpp:
+
+src/lib/../chip/spc7110/decomp.hpp:
+
+src/lib/../chip/cx4/cx4.hpp:
+
+src/lib/../chip/dsp1/dsp1.hpp:
+
+src/lib/../chip/dsp1/dsp1emu.hpp:
+
+src/lib/../chip/dsp2/dsp2.hpp:
+
+src/lib/../chip/dsp3/dsp3.hpp:
+
+src/lib/../chip/dsp4/dsp4.hpp:
+
+src/lib/../chip/obc1/obc1.hpp:
+
+src/lib/../chip/st010/st010.hpp:
+
+src/lib/../chip/st011/st011.hpp:
+
+src/lib/../chip/st018/st018.hpp:
+
+src/lib/../chip/21fx/21fx.hpp:
+
+src/lib/../cartridge/cartridge.hpp:
+
+src/lib/../memory/memory-inline.hpp:
+
+src/lib/../ppu/ppu-inline.hpp:
+
+src/lib/../cheat/cheat-inline.hpp:
+
+src/chip/srtc/serialization.cpp:
