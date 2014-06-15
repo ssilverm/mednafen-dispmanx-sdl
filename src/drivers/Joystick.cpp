@@ -62,23 +62,24 @@ void Joystick::CalcOldStyleID(unsigned arg_num_axes, unsigned arg_num_balls, uns
  md5_context hashie;
  uint64 ret = 0;
 
- //printf("%u %u %u %u\n", arg_num_axes, arg_num_balls, arg_num_hats, arg_num_buttons);
+ printf("%u %u %u %u\n", arg_num_axes, arg_num_balls, arg_num_hats, arg_num_buttons);
 
  tohash[0] = arg_num_axes;
  tohash[1] = arg_num_balls;
  tohash[2] = arg_num_hats;
  tohash[3] = arg_num_buttons;
 
- hashie.starts();
- hashie.update((uint8 *)tohash, sizeof(tohash));
- hashie.finish(digest);
+ //hashie.starts();
+ //hashie.update((uint8 *)tohash, sizeof(tohash));
+ //hashie.finish(digest);
 
- for(int x = 0; x < 16; x++)
- {
-  ret ^= (uint64)digest[x] << ((x & 7) * 8);
- }
-
+ //for(int x = 0; x < 16; x++)
+ //{
+ // ret ^= (uint64)digest[x] << ((x & 7) * 8);
+ //}
+ ret = tohash[0] + tohash[1] + tohash[2] + tohash[3];
  id = ret;
+ //id = 499;
 }
 
 void Joystick::SetRumble(uint8 weak_intensity, uint8 strong_intensity)
